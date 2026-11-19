@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fredoka", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.bremap-hero-title {
+  text-shadow:
+    -2px -2px 0 #3D1F14,
+     2px -2px 0 #3D1F14,
+    -2px  2px 0 #3D1F14,
+     2px  2px 0 #3D1F14,
+     0px  4px 0 #3D1F14;
+}
+
+.bremap-brand-title {
+  text-shadow:
+    -1.5px -1.5px 0 #3D1F14,
+     1.5px -1.5px 0 #3D1F14,
+    -1.5px  1.5px 0 #3D1F14,
+     1.5px  1.5px 0 #3D1F14,
+     0px    2.5px 0 #3D1F14;
+}

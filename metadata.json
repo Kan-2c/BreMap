@@ -1,0 +1,8 @@
+{
+  "name": "BreMap",
+  "description": "Geospatial route telemetry and spatial place intelligence powered by a Python processing backend and dynamic Google Maps interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
